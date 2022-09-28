@@ -1,0 +1,29 @@
+.receitas {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.receita {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.receita__imagem {
+    height: 200px;
+}
+
+.receita__titulo {
+    font-size: 1.4375rem;
+}
+
+.receita__descricao {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+}
+
+.receita__conteudo {
+    padding: 1rem;
+}
